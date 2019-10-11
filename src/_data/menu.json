@@ -1,0 +1,37 @@
+[
+    {
+        "link": "https://rmitwildcard.github.io/assignment-2",
+        "title": "Home",
+        "label": "Home"
+    },
+    {
+        "link": "https://rmitwildcard.github.io/assignment-2/team-profile",
+        "title": "Team Profile",
+        "label": "Team Profile"
+    },
+    {
+        "link": "https://rmitwildcard.github.io/assignment-2/ideal-jobs",
+        "title": "Ideal Jobs",
+        "label": "Ideal Jobs"
+    },
+    {
+        "link": "https://rmitwildcard.github.io/assignment-2/industry-data",
+        "title": "Industry Data",
+        "label": "Industry Data"
+    },
+    {
+        "link": "https://rmitwildcard.github.io/assignment-2/it-work",
+        "title": "IT Work",
+        "label": "IT Work"
+    },
+    {
+        "link": "https://rmitwildcard.github.io/assignment-2/it-technologies",
+        "title": "IT Technologies",
+        "label": "IT Technologies"
+    },
+    {
+        "link": "https://rmitwildcard.github.io/assignment-2/project-idea",
+        "title": "Project Idea",
+        "label": "Project Idea"
+    }
+]
