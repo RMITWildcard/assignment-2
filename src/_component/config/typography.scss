@@ -23,10 +23,10 @@ h6 {
 }
 
 a {
+    color: $color-light-robins-egg-blue;
     text-decoration: none;
-    color: black;
 
     &:hover {
-        color: grey;
+        color: $color-mineshaft;
     }
 }
