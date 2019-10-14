@@ -24,6 +24,51 @@ body {
     }
 }
 
+// Menu
+.menu__wrapper {
+    background-color: $color-white;
+    border-left: 0.17rem solid $color-light-robins-egg-blue;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    transition: 0.3s;
+}
+
+.menu__hidden {
+    display: none;
+}
+
+.as2--menu {
+    font-size: 1rem;
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
+
+#toggle-menu:checked {
+    & + .menu__wrapper {
+        right: 0%;
+        width: 8rem;
+    }
+
+    & ~ label[for="toggle-menu"]:before {
+        content: "\e901";
+    }
+}
+
+.menu__list {
+    margin-top: 2rem;
+}
+
+.menu__link {
+    font-size: 0.5rem;
+    display: block;
+    padding: 0.2rem 0.5rem;
+    margin-top: 1rem;
+}
+
 // Team member info
 .tabs {
     list-style: none;
